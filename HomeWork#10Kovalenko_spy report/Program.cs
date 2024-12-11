@@ -22,7 +22,7 @@ while (true)
 
 
 
-    Console.Write("\n Продожити - 1 / Закінчити та вивести звіт - 2? _ ");
+    Console.Write("\n Продожити? - 1 / Закінчити та вивести звіт? - 2 _ ");
 
     bool exitOut = int.TryParse((Console.ReadLine()), out int exit);
 
